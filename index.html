@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- ###############[HEADER BEGINS HERE]####################### -->
+    <header>
+        <div class="logo"><i class="fab fa-github"></i></div>
+        <div class="search-container">
+            <input class="search-input" type="text" name="search" placeholder="Search or jump to...">
+            <span>/</span>
+        </div>
+        <ul>
+            <li>Pull requests</li>
+            <li>Issues</li>
+            <li>Codespaces</li>
+            <li>Marketplace</li>
+            <li>Explore</li>
+        </ul>
+
+        <div class="settings-controls">
+            <span><i class="far fa-bell"></i></span>
+            <span><code>+</code><i class="fas fa-caret-down"></i></span>
+            <span> <img src="./profile.jpg" alt="" srcset=""> <i class="fas fa-caret-down"></i></span>
+        </div>
+    </header>
+    <!-- ###############[HEADER ENDS HERE]####################### -->
+    
+    <!-- #####################[ MAIN BODY CONTENT BEGINS HERE ]#################### -->
+    <div class="container">
+        <!-- PROFILE SECTION -->
+        <div class="profile">
+            <img class="profile-image" src="./profile.jpg" alt="">
+            <div class="profile-name">Profile Name</div>
+            <div class="profile-username">username</div>
+            <div class="profile-desc">Description</div>
+        </div>
+        <!-- PROFILE SECTION ENDS HERE -->
+    
+        <!-- REPO-CONTENT SECTION -->
+        <div class="user-repo-content">
+            <div class="repo-tab">
+                <div><img class="icon" src="./open-book-svgrepo-com.svg" alt=""> Overview</div>
+                <div class="active"><img class="icon " src="./book-svgrepo-com.svg" alt="">Repositories</div>
+                <div><i class="far fa-list-alt"></i>Projects</div>
+                <div><img class="icon" src="./cube-svgrepo-com.svg" alt="">Packages</div>
+            </div>
+
+            <input class="repo-search" type="text" name="" >
+
+            <div class="repo-search-result">Search result</div>
+            <hr>
+            <div class="repos" id="repoDisplay">
+                <div class="repos-item" >
+                    <div>
+                        <div class="proj-name">Project-name</div>
+                        <div class="proj-info">
+                            <span><i class="fas fa-circle"></i>language</span>
+                            <span><i class="far fa-star"></i>star</span>
+                            <span><i class="fas fa-code-branch"></i>fork</span>
+                            <span>date</span>
+                        </div>
+                    </div>
+                    <div class="star"><i class="far fa-star"></i>star</div>
+                </div>
+            </div>
+        </div>
+        <!-- REPO-CONTENT SECTION ENDS HERE --> 
+    </div>
+    <!-- #####################[ MAIN BODY CONTENT ENDS HERE ]#################### -->
+    <script src="https://kit.fontawesome.com/bb034dbd21.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
